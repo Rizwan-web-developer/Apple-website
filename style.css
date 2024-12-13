@@ -1,0 +1,363 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.pehla {
+    background-color: #FAFAFC;
+}
+
+nav {
+    display: flex;
+
+}
+
+.logo {
+    width: 20%;
+    margin-right: 20px;
+}
+
+.logo img {
+    width: 7%;
+    margin-top: 13px;
+    margin-left: 200px;
+}
+
+.list {
+    margin-right: 200px;
+}
+
+.list ul {
+    display: flex;
+    margin-top: 12px;
+}
+
+.list ul .search {
+    margin-left: 10px;
+}
+
+.list ul .search img {
+    width: 30%;
+    padding: 0px 5px;
+}
+
+.list ul li {
+    list-style: none;
+}
+
+.list ul li a {
+    text-decoration: none;
+    padding: 0px 15px;
+    color: #181818;
+}
+
+.apple img {
+    width: 85%;
+    margin-top: 25px;
+    margin-left: 100px;
+    margin-bottom: 30px;
+}
+
+.extraline {
+    width: 100%;
+    height: 5vh;
+    background-color: #F5F5F7;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.extraline .text span a {
+    text-decoration: none;
+    color: #0262C3;
+}
+
+.bary {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bary h2 {
+    margin-top: 100px;
+    margin-left: 90px;
+    font-size: 70px;
+}
+
+.bary h3 {
+    margin-top: 140px;
+    margin-right: 90px;
+    font-size: 27px;
+}
+
+.video video {
+    width: 90%;
+    margin-top: 50px;
+    margin-left: 60px;
+    border-radius: 30px;
+}
+
+.nichewalatext {
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 30px;
+}
+
+
+
+
+
+
+
+
+
+.cards {
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.card1 {
+    position: relative;
+}
+.card1:hover{
+    transform: scale(1.05);
+        transition: 0.5s ease-in-out;
+}
+
+.card1 img {
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.card1 .content {
+    margin-top: 100px;
+    margin-left: 80px;
+    position: absolute;
+    top: 0;
+    color: #F3F3F5;
+}
+
+.card1 .content h3 {
+    margin-bottom: 10px;
+}
+
+.card1 .content h2 {
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+.card2 {
+    position: relative;
+}
+.card2:hover{
+    transform: scale(1.05);
+    transition: all 0.5s ease;
+}
+.card2 img {
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.card2 .content {
+    margin-top: 100px;
+    margin-left: 80px;
+    position: absolute;
+    top: 0;
+    color: #F3F3F5;
+}
+
+.card2 .content h3 {
+    margin-bottom: 10px;
+}
+
+.card2 .content h2 {
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+.card3 {
+    position: relative;
+}
+.card3:hover{
+    transform: scale(1.05);
+    transition: 0.5s ease-in-out;
+}
+.card3 img {
+    margin-top: 70px;
+    margin-left: 50px;
+    border-radius: 30px;
+}
+
+.card3 .content {
+    margin-top: 100px;
+    margin-left: 80px;
+    position: absolute;
+    top: 0;
+    color: #F3F3F5;
+}
+
+.card3 .content h3 {
+    margin-bottom: 10px;
+}
+
+.card3 .content h2 {
+    padding-bottom: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.lastwala {
+    width: 100%;
+    height: auto;
+    background-color: #F5F5F7;
+    margin-top: 150px;
+    margin-bottom: 100px;
+}
+
+.lastwala .text {
+    display: flex;
+    justify-content: space-between;
+}
+.lastwala .text h2{
+    margin-top: 150px;
+    margin-left: 80px;
+    font-size: 40px;
+}
+.lastwala .text p{
+    margin-top: 170px;
+    margin-right: 70px;
+}
+.lastwala .text p a{
+    text-decoration: none;
+    color: #0262C3;
+}
+
+
+.teen{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.iphone1{
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+}
+.iphone1 img{
+    margin-left:50px ;
+}
+.iphone1 p{
+    margin-top: 10px;
+    text-align: center;
+}
+.iphone1 p span{
+    color: red;
+}
+.iphone1 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.iphone1 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.iphone2{
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+}
+.iphone2 img{
+    margin-left:50px ;
+}
+.iphone2 p{
+    margin-top: 10px;
+    text-align: center;
+}
+.iphone2 p span{
+    color: red;
+}
+.iphone2 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.iphone2 h3{
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.iphone3{
+    width: 25%;
+    display: block;
+    margin-top: 40px;
+}
+.iphone3 img{
+    margin-left:20px ;
+}
+.iphone3 p{
+    margin-top: 10px;
+    text-align: center;
+}
+.iphone3 p span{
+    color: red;
+}
+.iphone3 h2{
+    text-align: center;
+    margin-top: 10px;
+}
+.iphone3 h3{
+    text-align: center;
+    margin-top: 20px;
+}
